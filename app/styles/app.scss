@@ -1,1 +1,15 @@
+@import "variables";
+
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+
+@import "common";
+@import "header";
+@import "positions";
+
+html, body {
+  color: #38393b;
+  background-color: #f3f3f4;
+  a { cursor: pointer; }
+}

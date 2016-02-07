@@ -1,0 +1,79 @@
+table.position-results
+  margin-bottom: 10px
+
+  th
+    text-align: center
+
+  .results-bar
+    .progress
+      border: 1px solid black
+      margin-bottom: 0
+
+      .progress-bar
+        font-size: 10px
+        line-height: 18px
+
+      .progress-bar-white
+        color: black
+        background-color: white
+
+      .progress-bar-draw
+        background-color: gray
+
+      .progress-bar-black
+        background-color: black
+        color: white
+
+  td.no-next-moves
+    color: gray
+    text-align: center
+
+form#game-set-select
+  .control-label
+    padding-top: 6px
+
+.move-list
+  padding: 10px 0
+  font-size: 0.9em
+  font-family: "Droid Sans Mono"
+
+  span
+    padding: 0 5px
+    cursor: pointer
+    color: $gray-dark
+
+  span.future-ply
+    color: $gray
+
+  span.present-ply
+    background-color: $primary-extralight
+
+#matched-openings
+  h3
+    font-size: 1em
+    font-weight: bold
+
+  .matched-opening
+    margin-bottom: 5px
+
+    .color-flag
+      background-color: #dddddd
+      padding-left: 5px
+
+      div
+        background-color: white
+        padding-left: 10px
+
+    .opening-title
+      font-weight: bold
+
+    .opening-sequence
+      font-size: 0.9em
+      font-family: "Droid Sans Mono"
+
+      span.faded
+        color: $gray
+
+  .matched-opening.active
+    .color-flag
+      background-color: $secondary
