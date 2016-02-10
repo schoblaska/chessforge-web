@@ -7,6 +7,7 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import("vendor/chessjs/chess.js");
   app.import("vendor/chessboardjs/js/chessboard-0.3.0.min.js");
   app.import("vendor/chessboardjs/css/chessboard-0.3.0.min.css");
 
