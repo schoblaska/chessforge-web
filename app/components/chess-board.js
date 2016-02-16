@@ -15,7 +15,7 @@ export default Ember.Component.extend({
 
   _attachResizeListener: function() {
     $(window).resize(() => {
-      this.board.resize()
+      this.board.resize();
     });
   }
 });
